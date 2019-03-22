@@ -1,0 +1,58 @@
+@import 'imports/fonts';
+
+html
+{
+	box-sizing: border-box;
+
+}
+*, *:before, *:after 
+{
+	box-sizing: inherit;
+}
+body
+{
+	margin:0;
+}
+
+.no-space
+{
+	padding:0;
+	margin: 0;
+}
+
+.babel-header
+{
+	width: 100%;
+	height: 100px;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(94,123,143,1) 0%, rgba(172,192,205,1) 90% );
+	text-align: center;
+	font-size:40px;
+	color:white;
+	font-family: Nunito-Bold;
+	line-height: 100px; 
+	position: fixed;
+}
+
+%babel-div
+{
+	width:100%;
+	height:80vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.alpha-div
+{
+	width:100%;
+	height:100vh;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(94,123,143,1) 0%, rgba(172,192,205,1) 90% );
+	
+}
+
+.beta-div
+{
+	@extend %babel-div;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,0,0,1) 0%, rgba(64,64,64,1) 90.2% );
+}
+
+
