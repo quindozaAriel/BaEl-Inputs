@@ -44,14 +44,18 @@ html {
 	// background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(80,216,216,1) 0%, rgba(80,216,216,0.52) 46.9%, rgba(80,216,216,0.84) 100.2% );
 }
 
-#sample_container
-{
+#sample_container{
 	margin-top:100px;
 }
 
 .beta-div{
 	@extend %babel-div;
 	background-image: radial-gradient( circle 581px at 35.4% 26.8%,  rgba(61,180,136,1) 0%, rgba(62,174,180,1) 100.2% );
+}
+
+#Babel-logo{
+	margin-top:300px;	
+	
 }
 
 
