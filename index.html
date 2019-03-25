@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Fontawesome 5.8.0 -->
-	<link rel="stylesheet" type="text/css" href="res/fontawesome/all.min.css">
+	<link rel="stylesheet" type="text/css" href="res/fontawesome/css/all.min.css">
 	<!-- Bootstrap 4 -->
 	<link rel="stylesheet" type="text/css" href="res/bootstrap/css/bootstrap.min.css">
 
@@ -17,40 +17,76 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-12 no-space">
-				<header class="babel-header">Babel Inputs</header>
+			<div class="babel-header no-space">
+				<label>Babel Inputs</label>
+				<div class="right-nav">
+					<a href=""><i class="fas fa-home"></i> Home</a>
+					<a href=""><i class="fab fa-github"></i></i> GitHub</a>
+					<a href=""><i class="fas fa-phone"></i></i> Contact</a>
+				</div>
 			</div>
 		</div>
+		
+
 		<div class="row">
 			<div class="col-12 no-space">
 				<div class="alpha-div">
+					<div class="alpha-overlay"></div>
 					<div class="row" >
 						<div class="col-lg-5 col-md-5 col-sm-12 col-12">
-							<center><img id="Babel-logo" src="assets/images/Babel-logo.png"></center>
+							<center><img id="Babel-logo" src="assets/images/babel.png"></center>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-12 col-12">
-							<div id="sample_container">
-								<input type="text" name="">
-							</div>
+							<center>
+								<div id="sample_container">
+									<label>Traditional Input Text</label>
+									<center>
+										<input type="text">
+									</center>
+									<br>
+									<label>Babel Input Text</label>
+									<center>
+										<input type="text" name="">
+									</center>
+								</div>
+							</center>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 no-space">
 				<div class="beta-div">
-					
+					<label>Light Theme</label>
+					<div class="row">
+						<div class="col-lg-3">
+							<input type="text">
+						</div>
+						<div class="col-lg-3">
+							
+						</div>
+						<div class="col-lg-3">
+						
+						</div>
+						<div class="col-lg-3">
+							
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<footer>
+		Photo by Marvin Meyer on Unsplash
+	</footer>
 
 	<!-- JQuery 3 -->
 	<script type="text/javascript" src="res/jquery/jquery.min.js"></script>
 	<!-- Bootstrap 4 -->
 	<script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/scripts/babel-inputs.js"></script>
+	<script type="text/javascript" src="res/fontawesome/js/all.min.js"></script>
 </body>
 </html>
